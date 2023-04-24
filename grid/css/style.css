@@ -1,0 +1,498 @@
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.eot');
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+      url('../fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-MediumItalic.woff') format('woff'),
+      url('../fonts/Roboto-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.eot');
+  src: local('Roboto Italic'), local('Roboto-Italic'),
+      url('../fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Italic.woff') format('woff'),
+      url('../fonts/Roboto-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+      url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Bold.woff') format('woff'),
+      url('../fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: local('Roboto'), local('Roboto-Regular'),
+      url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Regular.woff') format('woff'),
+      url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+      url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Medium.woff') format('woff'),
+      url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.eot');
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+      url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-BoldItalic.woff') format('woff'),
+      url('../fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.eot');
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+      url('../fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-ThinItalic.woff') format('woff'),
+      url('../fonts/Roboto-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.eot');
+  src: local('Roboto Black'), local('Roboto-Black'),
+      url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Black.woff') format('woff'),
+      url('../fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.eot');
+  src: local('Roboto Light'), local('Roboto-Light'),
+      url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Light.woff') format('woff'),
+      url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.eot');
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+      url('../fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-LightItalic.woff') format('woff'),
+      url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.eot');
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+      url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-BlackItalic.woff') format('woff'),
+      url('../fonts/Roboto-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.eot');
+  src: local('Roboto Thin'), local('Roboto-Thin'),
+      url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Thin.woff') format('woff'),
+      url('../fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.bth{
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  align-items: center;
+  padding: 24px 75.5px;
+  background: #3F2AFF;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.offset{
+  margin-bottom: 80px;
+}
+
+/* header */
+.header{
+  min-height: 80px;
+  background: #3F2AFF;
+}
+
+.header-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background: #3F2AFF;
+}
+
+.header-nav-list{
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.header-nav{
+  min-width: 470px;
+}
+
+.header-nav-list-item{
+  padding: 0;
+}
+
+.nav-item-link{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+
+/* hero */
+.bg-reletive{
+  position: relative;
+}
+
+.hero{
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+.bg-hero{
+  padding: 11px 0px 0px 17px;
+}
+
+.hero-info{
+  margin: 0;
+}
+
+.hero-bg{
+  padding-top: 6px; padding-bottom: 6px;
+}
+.hero-title{
+  margin: 0;
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.hero-text{
+  max-width: 450px;
+  margin: 0;
+  margin-bottom: 62px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.bth{
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  align-items: center;
+  padding: 24px 75.5px;
+  background: #3F2AFF;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.hero-bth{
+
+}
+
+/* about */
+
+.about-info{
+  background-image: url('../img/about-textur-img.png');
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+  background-position: 1.5% 43.9%;
+  padding-left: 205px;
+}
+
+.about-title{
+  max-width: 370px;
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #2E2B44;
+}
+
+.about-text{
+  margin: 0;
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.targets-offset{
+  justify-content: space-between;
+}
+
+.targets{
+  padding: 21px 13px 10px 124.5px;
+  background-position: 5.25% 100%;
+}
+
+
+.target-bg1{
+  background-image: url('../img/target-bg1.png');
+  background-repeat: no-repeat;
+}
+
+.target-bg2{
+  background-image: url('../img/target-bg2.png');
+  background-repeat: no-repeat;
+}
+
+.target-bg3{
+  background-image: url('../img/target-bg3.png');
+  background-repeat: no-repeat;
+  padding: 22px 22px 10px 122.5px;
+}
+
+/* teachers */
+
+.teachers{
+  background: #212133;
+  margin-bottom: 74px;
+}
+
+.teachers-container{
+  padding-top: 74px;
+  padding-bottom: 72px;
+}
+
+.teachers-title{
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.teachers-name{
+  margin: 0;
+  margin-bottom: 7px;
+  padding-top: 26px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.teachers-about{
+  max-width: 250px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #85859B;
+}
+
+.teachers-card{
+  padding: 0 15px;
+}
+
+/* courses */
+
+.courses-title{
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #212133;
+}
+
+.courses-card{
+  padding: 0 15px;
+}
+
+.courses-card:nth-child(4n+1), .courses-card:nth-child(4n+2) {
+	margin-bottom: 30px;
+}
+
+
+.courses-group-info-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 181px 37px 0px 30px;
+  background: #EDF0F9;
+  border-radius: 20px;
+  min-height: 480px;
+}
+
+.courses-block-bth{
+  margin-bottom: 30px;
+}
+
+.courses-name{
+  margin: 0;
+  padding-top: 30px;
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #212133;
+}
+
+.courses-text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.courses-bth{
+
+  padding: 20.5px 59px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.courses-bg1{
+  background-image: url('../img/courses-img1.png');
+  background-repeat: no-repeat;
+}
+
+.courses-bg2{
+  background-image: url('../img/courses-img2.png');
+  background-repeat: no-repeat;
+}
+
+.courses-bg3{
+  background-image: url('../img/courses-img3.png');
+  background-repeat: no-repeat;
+}
+
+.courses-bg4{
+  background-image: url('../img/courses-img4.png');
+  background-repeat: no-repeat;
+}
+
+#menuToggle input {
+  display: none;
+}
+
+.courses-time{
+  position: absolute;
+  display: flex;
+  top: 2.5%;
+  left: 81.4%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.svg-time{
+  margin-right: 6px;
+}
+
+/* footer */
+
+.footer{
+  background: #2E2B44;
+}
+
+.social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link{
+  text-decoration: none;
+  padding: 28px 15px;
+  padding-bottom: 23px;
+}
+
+.footer-botoom{
+  text-align: center;
+}
+.footer-botoom-text{
+  margin: 0;
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #2E2B44;
+
+}
+
+.link-rules{
+  text-decoration: none;
+}
+
+.hamburger-lines{
+  display: none;
+}
